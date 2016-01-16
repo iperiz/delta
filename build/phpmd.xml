@@ -11,10 +11,10 @@
     </description>
 
     <!-- Import the entire unused code rule set -->
-    <rule ref="./phpmd/cleancode.xml" />
-    <rule ref="./phpmd/codesize.xml" />
-    <rule ref="./phpmd/controversial.xml" />
-    <rule ref="./phpmd/design.xml" />
-    <rule ref="./phpmd/naming.xml" />
-    <rule ref="./phpmd/unusedcode.xml" />
+    <rule ref="./build/phpmd/cleancode.xml" />
+    <rule ref="./build/phpmd/codesize.xml" />
+    <rule ref="./build/phpmd/controversial.xml" />
+    <rule ref="./build/phpmd/design.xml" />
+    <rule ref="./build/phpmd/naming.xml" />
+    <rule ref="./build/phpmd/unusedcode.xml" />
 </ruleset>
